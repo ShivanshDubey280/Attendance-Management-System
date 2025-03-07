@@ -27,7 +27,7 @@ class Developer:
         main_frame.place(x=1000,y=55,width=500,height=200)
 
         img_l=Image.open("Images/developergif.gif")
-        img_l=img_l.resize((200,200),Image.LANCZOS)   #High level img to Low level img
+        img_l=img_l.resize((200,200),Image.LANCZOS)
         self.photoimg_l=ImageTk.PhotoImage(img_l)
 
         first_lb=Label(main_frame, image=self.photoimg_l)

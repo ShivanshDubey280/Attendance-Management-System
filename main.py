@@ -127,7 +127,7 @@ class Face_Recognition_System:
 
         #Developer info/Contact
         Dev=Image.open("Images/dev1.jpg")
-        Dev=Dev.resize((220,220),Image.LANCZOS)   #High level img to Low level img
+        Dev=Dev.resize((220,220),Image.LANCZOS)   
         self.photoimg_Dev=ImageTk.PhotoImage(Dev)
 
         b1=Button(bg_image,image=self.photoimg_Dev,cursor="hand2",command=self.developer_data)

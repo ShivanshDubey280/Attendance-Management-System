@@ -15,7 +15,7 @@ class Help:
         title_lb1.place(x=0,y=0,width=1530,height=45)
 
         img_top=Image.open("Images/help.jpg")
-        img_top=img_top.resize((1530,740),Image.LANCZOS)   #High level img to Low level img
+        img_top=img_top.resize((1530,740),Image.LANCZOS)
         self.photoimg_top=ImageTk.PhotoImage(img_top)
 
         first_lb=Label(self.root, image=self.photoimg_top)

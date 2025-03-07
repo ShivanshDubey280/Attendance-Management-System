@@ -73,7 +73,6 @@ class Attendance:
         Left_frame.place(x=2,y=1,width=660,height=518)
         
         img_left=Image.open(r"Images\re4.jpg")
-        # img_left = Image.open(r"C:\Users\ACER\Desktop\myProj\Facial-Recognition-Based-Student-Attendance-System\Images\re4.jpg")
         img_left=img_left.resize((660, 90),Image.LANCZOS)
         self.photoimg_left=ImageTk.PhotoImage(img_left)
 

@@ -15,7 +15,6 @@ from datetime import datetime
 import cv2 as cv
 from os.path import isfile, join
 from os import listdir
-import time
 import pandas as pd
 import csv
 import pyttsx3
