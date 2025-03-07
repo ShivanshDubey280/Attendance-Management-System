@@ -739,7 +739,7 @@ class Student:
                 my_cursor.execute("SELECT * FROM student1 WHERE id = %s", (self.var_std_id.get(),))
                 myresult = my_cursor.fetchall()
 
-                id = int(self.var_std_id.get())  # Correctly setting student ID
+                id = int(self.var_std_id.get())
 
                 my_cursor.execute(
                     "UPDATE student1 SET Dep=%s, course=%s, Year=%s, Semester=%s, Name=%s, Division=%s, Roll=%s, Gender=%s, Dob=%s, Email=%s, phone=%s, Address=%s, Teacher=%s, PhotoSample=%s WHERE id=%s",
