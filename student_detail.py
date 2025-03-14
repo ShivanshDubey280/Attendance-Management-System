@@ -486,7 +486,6 @@ class Student:
        
 
     # checkphone number
-
     def checkphone(self,phone):
         if len(phone) <=10:
           if phone.isdigit():
