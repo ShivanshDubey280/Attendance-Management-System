@@ -1,4 +1,3 @@
-
 from logging import root
 from os import SEEK_CUR, close
 from tkinter import*
