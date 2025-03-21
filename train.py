@@ -10,6 +10,7 @@ import numpy as np
 import pyttsx3
 
 
+
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)  # 1 is for female voice and 0 is for male voice

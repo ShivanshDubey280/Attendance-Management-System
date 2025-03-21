@@ -52,6 +52,7 @@ class Face_Recognition_System:
         title_lb.place(x=0,y=0,width=1530,height=50)
 
 
+
         #Student Button
         std_1=Image.open("Images/std_1.jpg")
         std_1=std_1.resize((220,220),Image.LANCZOS)   #High level img to Low level img
