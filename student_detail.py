@@ -482,8 +482,7 @@ class Student:
            if  not (("A" <= char and char <= "Z") or ("a" <= char and char <= "z") or (char == " ")):
               return False
        return True
-       
-
+    
     # checkphone number
     def checkphone(self,phone):
         if len(phone) <=10:

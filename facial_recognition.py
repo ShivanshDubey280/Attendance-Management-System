@@ -96,7 +96,7 @@ class Face_Recognition:
                     confidence = int((100 * (1 - predict / 300)))
                     cv2.putText(img, f"Accuracy:{confidence}%", (x, y - 100), cv2.FONT_HERSHEY_COMPLEX, 0.8, (0, 255, 0), 3)
 
-                if confidence > 80:
+                if confidence > 70:
                     cv2.putText(img, f"id: {i}", (x, y - 75), cv2.FONT_HERSHEY_COMPLEX, 0.8, (255, 255, 255), 3)
                     cv2.putText(img, f"Roll:{r}", (x, y - 55), cv2.FONT_HERSHEY_COMPLEX, 0.8, (255, 255, 255), 3)
                     cv2.putText(img, f"Name:{n}", (x, y - 30), cv2.FONT_HERSHEY_COMPLEX, 0.8, (255, 255, 255), 3)
