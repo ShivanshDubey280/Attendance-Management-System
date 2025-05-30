@@ -35,14 +35,7 @@ class Attendance:
         self.var_atten_date=StringVar()
         self.var_atten_attendance=StringVar()
         
-        # 1st image 
-        # img=Image.open(r"Images\n.jpg")
-        # img=img.resize((680, 130),Image.LANCZOS)
-        # self.photoimg=ImageTk.PhotoImage(img)
-
-        # f_lbl=Label(self.root,image=self.photoimg)
-        # f_lbl.place(x=0,y=0,width=700,height=130)
-
+        
         # second image
         img1=Image.open(r"Images\re1.jpg")
         # img1 = Image.open(r"C:\Users\ACER\Desktop\myProj\Facial-Recognition-Based-Student-Attendance-System\Images\re1.jpg")
