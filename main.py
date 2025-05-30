@@ -89,7 +89,6 @@ class Face_Recognition_System:
         b1_txt=Button(bg_image,text="Attendance",command=self.attendance_data,cursor="hand2",font=("PT Serif",15,"bold"),bg="#040229",fg="white")
         b1_txt.place(x=800,y=300,width =220,height=40)
 
-
         #Help Desk
         help=Image.open("Images/help_d.jpg")
         help=help.resize((220,220),Image.LANCZOS)   #High level img to Low level img
@@ -190,7 +189,6 @@ class Face_Recognition_System:
             self.root.destroy()
         else:
             return
-
 if __name__== "__main__":
     root=Tk()
     obj=Face_Recognition_System(root)
