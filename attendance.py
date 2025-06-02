@@ -231,26 +231,6 @@ class Attendance:
         except Exception as es:
             speak_va("Error")
             messagebox.showerror("Error",f"Due To :{str(es)}",parent=self.root)        
-               
-    # # export csv         
-    # def exportCsv(self):    
-    #     try:
-    #         if len(mydata)<1:
-    #             speak_va("No Data Found")
-    #             messagebox.showerror("No Data","No Data Found",parent=self.root)
-    #             return False
-    #         fln=filedialog.asksaveasfile(initialdir=os.getcwd(),title="Open CSV",filetypes=(("CSV File","*.csv"),("ALL File","*.*")),parent=self.root)
-    #         with open(fln,mode="w",newline="") as myfile:
-    #             exp_write=csv.writer(myfile,delimiter=",")
-    #             for i in mydata:
-    #                 exp_write.writerow(i)
-    #             speak_va("Your Data Exported to" + os.path.basename(fln) + " Successfully")
-    #             messagebox.showinfo("Data Export","Your Data has been Exported to"+os.path.basename(fln)+"Successfully")    
-    #     except Exception as es:
-    #             speak_va("Error")
-    #             messagebox.showerror("Error",f"Due to : {str(es)}",parent=self.root)
-
-
 
     # view attendance report csv         
     def viewReport(self):    
